@@ -1,0 +1,42 @@
+{
+  "name": "express-api-demo",
+  "version": "1.0.0",
+  "description": "A demo using express JS to build an API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jasmine tests/"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "demo",
+    "api"
+  ],
+  "author": "Bolaji Olajide 'Nuel Edited by Martins Kayode",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "monk": "^4.0.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martinsk09/MicrosoftAndela.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andela-bolajide/UserManager/issues"
+  },
+  "homepage": "https://github.com/andela-bolajide/UserManager#readme"
+}
